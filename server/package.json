@@ -1,0 +1,24 @@
+{
+  "name": "medication-management-server",
+  "version": "1.0.0",
+  "description": "Backend API for Hospital Medication Management System",
+  "main": "src/index.js",
+  "type": "module",
+  "scripts": {
+    "start": "node --no-warnings src/index.js",
+    "dev": "nodemon --no-warnings src/index.js",
+    "seed": "node --no-warnings src/db/seed.js"
+  },
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "cors": "^2.8.5",
+    "dotenv": "^16.4.7",
+    "express": "^4.21.2",
+    "jsonwebtoken": "^9.0.2",
+    "mysql2": "^3.24.6",
+    "zod": "^3.24.2"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.9"
+  }
+}

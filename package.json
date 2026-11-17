@@ -1,0 +1,17 @@
+{
+  "name": "hospital-medication-management-system",
+  "version": "1.0.0",
+  "description": "Hospital Medication Management System with strict RBAC, 3-slot scheduling, and safe dispensing",
+  "scripts": {
+    "server": "npm --prefix server run dev",
+    "server:start": "npm --prefix server start",
+    "server:seed": "npm --prefix server run seed",
+    "client": "npm --prefix medication-management-system run dev",
+    "test:module1": "node --no-warnings server/test-module1.js",
+    "test:module2": "node --no-warnings server/test-module2.js",
+    "test:module3": "node --no-warnings server/test-module3.js",
+    "test:module4": "node --no-warnings server/test-module4.js",
+    "test:module5": "node --no-warnings server/test-module5.js",
+    "test:all": "npm run test:module1 && npm run test:module2 && npm run test:module3 && npm run test:module4 && npm run test:module5"
+  }
+}
